@@ -10,7 +10,7 @@ const Project = () => {
         <ul className="my-6 block">
           {PROJECTS.map(({ id, name, technologies, description, href }) => (
             <li key={id} className="md:flex my-4 justify-center">
-              <div className="md:max-w-1/2 bg-primary p-2 rounded">
+              <div className="md:w-1/2 bg-primary p-2 rounded">
                 <a target="_blank" href={href}>
                   <h3 className="text-2xl my-4">{name}</h3>
                 </a>
