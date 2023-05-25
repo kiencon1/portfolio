@@ -8,6 +8,7 @@ const App = ({ Component, pageProps }: AppProps) => {
     <ErrorBoundary>
       <Script
         async={true}
+        defer={true}
         src="https://www.googletagmanager.com/gtag/js?id=G-G2GT3W4XM3"
       ></Script>
       <Component {...pageProps} />

@@ -5,7 +5,12 @@ const AntDesign = ({
   svgClasses,
   classes = "inline-block m-2",
 }: TTechnology) => (
-  <a href="https://ant.design/" className={classes} target="_blank">
+  <a
+    href="https://ant.design/"
+    className={classes}
+    target="_blank"
+    aria-label="antdesign"
+  >
     <AntIcon classes={svgClasses} />
   </a>
 );

@@ -5,7 +5,12 @@ const ExpressJS = ({
   svgClasses,
   classes = "inline-block m-2",
 }: TTechnology) => (
-  <a href="https://expressjs.com/" className={classes} target="_blank">
+  <a
+    href="https://expressjs.com/"
+    className={classes}
+    target="_blank"
+    aria-label="expressJS"
+  >
     <ExpressJSIcon classes={svgClasses} />
   </a>
 );

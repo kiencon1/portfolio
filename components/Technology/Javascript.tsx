@@ -5,7 +5,12 @@ const Javascript = ({
   svgClasses,
   classes = "inline-block m-2",
 }: TTechnology) => (
-  <a href="https://www.javascript.com/" className={classes} target="_blank">
+  <a
+    href="https://www.javascript.com/"
+    className={classes}
+    target="_blank"
+    aria-label="javascript"
+  >
     <JavascriptIcon classes={svgClasses} />
   </a>
 );

@@ -73,7 +73,7 @@ const Home = () => {
               {SPLIT_PROJECTS.map(
                 ({ id, name, technologies, description, href }) => (
                   <li key={id} className="md:flex my-4 justify-center">
-                    <div className="md:max-w-1/2 bg-primary p-2 rounded">
+                    <div className="md:w-1/2 bg-primary p-2 rounded">
                       <a target="_blank" href={href} className="my-4">
                         <h3 className="text-2xl">{name}</h3>
                       </a>
@@ -101,7 +101,7 @@ const Home = () => {
               <span className="mr-4">
                 <MailIcon classes="w-6 h-6 inline" />
               </span>
-              <a target="_blank" href="https://gmail.com">
+              <a target="_blank" href="https://gmail.com" aria-label="gmail">
                 <span>vietson1610@gmail.com</span>
               </a>
             </p>
@@ -115,10 +115,15 @@ const Home = () => {
               <a
                 href="https://www.linkedin.com/in/viet-son-bui-798200272/"
                 target="_blank"
+                aria-label="linkedin"
               >
                 <LinkedInIcon classes="h-5 w-5" />
               </a>
-              <a href="https://github.com/kiencon" target="_blank">
+              <a
+                href="https://github.com/kiencon"
+                target="_blank"
+                aria-label="github"
+              >
                 <GithubIcon classes="h-5 w-5" />
               </a>
             </div>
