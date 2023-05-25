@@ -10,7 +10,7 @@ const Card = ({ title, description, date, JSXElementIcon }: TCard) => {
         <p>{date}</p>
         <p className="text-textSecondary">{description}</p>
       </div>
-      <JSXElementIcon />
+      <JSXElementIcon className="w-4 h-4 absolute top-1 -left-2 animate-ping" />
     </div>
   );
 };
