@@ -58,7 +58,7 @@ const About = () => {
             I am a new immigrant in Canada and I am searching for my first job
             opportunity here. I would greatly appreciate any referrals.
           </p>
-          <AnchorButton name="My resume" href="/resume.pdf" classes="mt-6" />
+          <AnchorButton name="My resume" href="/resume_2.pdf" classes="mt-6" />
         </section>
         <section className="py-12 px-4">
           <Title content="My Journey" />

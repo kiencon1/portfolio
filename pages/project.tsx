@@ -25,7 +25,7 @@ const Project = () => {
           ))}
         </ul>
         <AnchorButton
-          href="/resume1.pdf"
+          href="/resume_2.pdf"
           name="View detail in my resume"
           classes="mb-4 w-80"
         />

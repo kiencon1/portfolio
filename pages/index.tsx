@@ -46,7 +46,7 @@ const Home = () => {
             <div className="my-2">
               <AnchorButton
                 name="My resume"
-                href="/resume1.pdf"
+                href="/resume_2.pdf"
                 classes="block"
               />
             </div>
