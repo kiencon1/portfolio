@@ -1,9 +1,9 @@
-import AnchorButton from "@/components/AnchorButton";
-import Card from "@/components/Card";
-import Layout from "@/components/Layout";
-import Title from "@/components/Title";
-import MY_JOURNEY from "@/const/journey";
-import Head from "next/head";
+import AnchorButton from '@/components/AnchorButton';
+import Card from '@/components/Card';
+import Layout from '@/components/Layout';
+import Title from '@/components/Title';
+import MY_JOURNEY from '@/const/journey';
+import Head from 'next/head';
 
 const About = () => {
   return (
@@ -58,7 +58,11 @@ const About = () => {
             I am a new immigrant in Canada and I am searching for my first job
             opportunity here. I would greatly appreciate any referrals.
           </p>
-          <AnchorButton name="My resume" href="/resume_2.pdf" classes="mt-6" />
+          <AnchorButton
+            name="My resume"
+            href="https://cdn.vsondev.com/s3/resume-2023-09.pdf"
+            classes="mt-6"
+          />
         </section>
         <section className="py-12 px-4">
           <Title content="My Journey" />

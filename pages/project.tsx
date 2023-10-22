@@ -1,6 +1,6 @@
-import AnchorButton from "@/components/AnchorButton";
-import Layout from "@/components/Layout";
-import PROJECTS from "@/const/projects";
+import AnchorButton from '@/components/AnchorButton';
+import Layout from '@/components/Layout';
+import PROJECTS from '@/const/projects';
 
 const Project = () => {
   return (
@@ -25,7 +25,7 @@ const Project = () => {
           ))}
         </ul>
         <AnchorButton
-          href="/resume_2.pdf"
+          href="https://cdn.vsondev.com/s3/resume-2023-09.pdf"
           name="View detail in my resume"
           classes="mb-4 w-80"
         />

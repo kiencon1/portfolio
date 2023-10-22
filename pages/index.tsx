@@ -1,12 +1,12 @@
-import AnchorButton from "@/components/AnchorButton";
-import Layout from "@/components/Layout";
-import GithubIcon from "@/components/SVGJSXElement/GithubIcon";
-import LinkedInIcon from "@/components/SVGJSXElement/LinkedInIcon";
-import MailIcon from "@/components/SVGJSXElement/MailIcon";
-import PhoneIcon from "@/components/SVGJSXElement/PhoneIcon";
-import FAVORITE_TECHS from "@/const/favoriteTechs";
-import { SPLIT_PROJECTS } from "@/const/projects";
-import Head from "next/head";
+import AnchorButton from '@/components/AnchorButton';
+import Layout from '@/components/Layout';
+import GithubIcon from '@/components/SVGJSXElement/GithubIcon';
+import LinkedInIcon from '@/components/SVGJSXElement/LinkedInIcon';
+import MailIcon from '@/components/SVGJSXElement/MailIcon';
+import PhoneIcon from '@/components/SVGJSXElement/PhoneIcon';
+import FAVORITE_TECHS from '@/const/favoriteTechs';
+import { SPLIT_PROJECTS } from '@/const/projects';
+import Head from 'next/head';
 
 const Home = () => {
   return (
@@ -46,7 +46,7 @@ const Home = () => {
             <div className="my-2">
               <AnchorButton
                 name="My resume"
-                href="/resume_2.pdf"
+                href="https://cdn.vsondev.com/s3/resume-2023-09.pdf"
                 classes="block"
               />
             </div>
