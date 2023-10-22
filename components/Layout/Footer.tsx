@@ -4,7 +4,7 @@ const Footer = () => {
     <footer className="bg-primary py-5">
       <div className="container">
         <p className="text-textPrimary text-center">
-          <span>Made by Samsondev.com - 2023</span>
+          <span>Made by vsondev.com - 2023</span>
         </p>
       </div>
     </footer>
