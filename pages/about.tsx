@@ -60,7 +60,7 @@ const About = () => {
           </p>
           <AnchorButton
             name="My resume"
-            href="https://cdn.vsondev.com/s3/resume-2023-09.pdf"
+            href="https://cdn.vsondev.com/s3/1701102426684-resume-2023-11.pdf"
             classes="mt-6"
           />
         </section>
