@@ -7,7 +7,7 @@ const MY_JOURNEY = [
     id: 1,
     title: 'Immigrate to Canada and looking for the first opportunity',
     description:
-      'I recently immigrated to Canada and I am seeking my first job here. I would appreciate any referrals. I am working on improving my English and developing my personal project, which is a web application that allows users to watch movies. I created it to study SEO, and even though it is just a learning project, some keywords rank in the top 1 to top 3 on Google search. Moreover, I am reviewing the knowledge of AWS to take an exam for getting AWS Certificates.',
+      'I recently immigrated to Canada and I am seeking my first job here. I would appreciate any referrals. I am working on developing my personal project and volunteer project, which is a web application that allows users to watch movies and an application for users to build English vocabulary. I created it to study SEO, and even though it is just a learning project, some keywords rank in the top 1 to top 3 on Google search. Moreover, I am reviewing the knowledge of AWS to take an exam for getting AWS Certificates.',
     JSXElementIcon: () => (
       <SearchingIcon classes="w-4 h-4 absolute top-1 -left-2 animate-ping" />
     ),
