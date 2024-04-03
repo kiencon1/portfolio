@@ -25,7 +25,7 @@ const Project = () => {
           ))}
         </ul>
         <AnchorButton
-          href="https://cdn.vsondev.com/s3/1701102426684-resume-2023-11.pdf"
+          href="https://cdn.phimhaytv.info/s3/1712157579939-VietSonBui.docx"
           name="View detail in my resume"
           classes="mb-4 w-80"
         />

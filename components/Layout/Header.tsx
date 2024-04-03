@@ -1,21 +1,21 @@
-import Image from "next/image";
-import Link from "next/link";
-import { useRouter } from "next/router";
-import { useState } from "react";
-import AboutIcon from "../SVGJSXElement/AboutIcon";
-import ProjectIcon from "../SVGJSXElement/ProjectIcon";
+import Image from 'next/image';
+import Link from 'next/link';
+import { useRouter } from 'next/router';
+import { useState } from 'react';
+import AboutIcon from '../SVGJSXElement/AboutIcon';
+import ProjectIcon from '../SVGJSXElement/ProjectIcon';
 
 const navListItem = [
   {
-    name: "about",
+    name: 'about',
     SVGJSXElement: () => (
-      <AboutIcon classes="text-textPrimary flex items-center w-12 h-12" />
+      <AboutIcon classes="text-textPrimary flex items-center w-8 h-8" />
     ),
   },
   {
-    name: "project",
+    name: 'project',
     SVGJSXElement: () => (
-      <ProjectIcon classes="text-textPrimary flex items-center w-12 h-12" />
+      <ProjectIcon classes="text-textPrimary flex items-center w-8 h-8" />
     ),
   },
 ];
@@ -62,7 +62,7 @@ const Header = () => {
       </div>
       <div
         className={`border-top-1 pt-1p container text-center mt-2 border-top border-textPrimary ${
-          isHiddenMenu ? "hidden" : ""
+          isHiddenMenu ? 'hidden' : ''
         }`}
       >
         <ul className="border-top-1 border-top border-textPrimary pt-2">
