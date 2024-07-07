@@ -18,6 +18,25 @@ import Vuetify from '@/components/Technology/Vuetify';
 
 const PROJECTS = [
   {
+    id: 0,
+    name: 'ESL',
+    videoSource: '',
+    description: `ESL is a single-page application that helps to study 3000 essential vocabulary and more than 2000 B2, and C1 vocabularies (based on the Oxford Dictionary).`,
+    technologies: [
+      () => <ReactJS key="reactJS" classes="" svgClasses="w-6 h-6" />,
+      () => <Redux key="redux" classes="" svgClasses="w-6 h-6" />,
+      () => <MySQL key="mysql" classes="" svgClasses="w-6 h-6 bg-white" />,
+      () => (
+        <TypeScript
+          key="typescript"
+          classes=""
+          svgClasses="w-6 h-6 bg-white rounded"
+        />
+      ),
+    ],
+    href: 'https://esl.vsondev.com',
+  },
+  {
     id: 1,
     name: 'Template.net',
     videoSource:
