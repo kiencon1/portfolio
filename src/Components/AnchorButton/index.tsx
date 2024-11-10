@@ -10,8 +10,7 @@ const AnchorButton = ({ name, href, classes }: TAnchorButton) => {
   return (
     <Link
       href={href}
-      className={`hover:text-textSecondary text-textPrimary 
-        inline-block bg-primary p-2 rounded w-48 ${classes ? classes : ""}`}
+      className={`hover:text-textSecondary text-textPrimary inline-block bg-primary p-2 rounded w-48 ${classes ? classes : ""}`}
     >
       {name}
     </Link>
