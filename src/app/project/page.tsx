@@ -1,4 +1,4 @@
-import AnchorButton from '@/Components/AnchorButton';
+import MyResume from '@/Components/MyResume';
 import { PROJECTS } from '@/const';
 import { Metadata } from 'next';
 
@@ -48,11 +48,7 @@ const Project = () => (
           </li>
         ))}
       </ul>
-      <AnchorButton
-        href='https://cdn.phimhaytv.info/s3/1720370556771-VietSonBui.docx'
-        name='View detail in my resume'
-        classes='mb-4 w-80'
-      />
+      <MyResume title='View detail in my resume' />
     </section>
   </>
 );

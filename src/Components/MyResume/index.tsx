@@ -1,10 +1,10 @@
 import AnchorButton from '../AnchorButton';
 
-const MyResume = () => (
+const MyResume = ({ title = 'My resume' }: { title?: string }) => (
   <AnchorButton
-    name='My resume'
+    name={title}
     href='https://www.vsondev.com/resume/VietSonBui.pdf'
-    classes='block'
+    classes='block my-2'
   />
 );
 
