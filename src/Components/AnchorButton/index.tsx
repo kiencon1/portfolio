@@ -1,16 +1,16 @@
-import Link from "next/link";
+import Link from 'next/link';
 
-type TAnchorButton = {
+type AnchorButtonProps = {
   name: string;
   classes?: string;
   href: string;
 };
 
-const AnchorButton = ({ name, href, classes }: TAnchorButton) => {
+const AnchorButton = ({ name, href, classes }: AnchorButtonProps) => {
   return (
     <Link
       href={href}
-      className={`hover:text-textSecondary text-textPrimary inline-block bg-primary p-2 rounded w-48 ${classes ? classes : ""}`}
+      className={`hover:text-textSecondary text-textPrimary inline-block bg-primary p-2 rounded w-48 ${classes ? classes : ''}`}
     >
       {name}
     </Link>

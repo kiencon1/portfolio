@@ -34,29 +34,18 @@ const About = () => (
     <section className='text-center text-textSecondary py-12 px-4'>
       <Title content='About' classes='text-center' />
       <p>
-        I started out as a construction engineer major, but I realized it was
-        not the right fit for me. With my family&apos;s encouragement, I decided
-        to pursue my high school dream of creating a website where users could
-        listen to music and chill.
+        Highly skilled and motivated programmer/developer with 6+ years of
+        experience in software development across diverse industries.
+        Proficiency in creating user interfaces, writing and testing codes,
+        troubleshooting complex application codes, and developing methods to
+        enhance application performance. Proven ability to deliver high-quality
+        software solutions on time and within budget. Adept at problem-solving,
+        teamwork, collaboration, and continuous learning to stay updated with
+        the technology trends.
       </p>
       <p>
-        My journey in software development began with C/C++ language on Console.
-        I found it fascinating and not as hard as some people might think. I was
-        very keen on learning algorithms, data structure, OOP, and design
-        patterns... and that helped me land a fresher job at Nashtech company,
-        one of the top technology companies in Vietnam, in 2018. That&apos;s
-        when everything took off.
-      </p>
-      <p>
-        I could say I am very fortunate in my IT career with my hard work and
-        now I have reached some achievements. The foundation knowledge that I
-        gained at HCM University of Science has been very useful. My key is very
-        simple: you must understand what you are doing and then you will know
-        how to do it in the best.
-      </p>
-      <p>
-        I am a new immigrant in Canada and I am searching for my first job
-        opportunity here. I would greatly appreciate any referrals.
+        I am studying at Algonquin College Ottawa to gain academic Canadian
+        experience but I am still open to a full-time job.
       </p>
       <MyResume />
     </section>
